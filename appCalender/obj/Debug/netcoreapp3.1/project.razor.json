@@ -14402,11 +14402,6 @@
   "RootNamespace": "appCalender",
   "Documents": [
     {
-      "FilePath": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
