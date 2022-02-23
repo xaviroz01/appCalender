@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nBckOSWVok9GJgRoWURhdEQQ6FF3vTL8KOu035mNzjiwQLudFbiTYFiEKlSeK+3bXGprxdF0Zj76ucBG7WV64w==",
+  "dgSpecHash": "IGhAJlkyfSCSLWzn6X3GDxjdNRyf5c0Ca0OvMb02Xx0wdntiBbvzsiBNZj/LKt9LSchPq8wG22Ng7hQnqg19Jg==",
   "success": true,
-  "projectFilePath": "/Users/nattapa/Desktop/dotnet/appCalender/appCalender.csproj",
+  "projectFilePath": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/appCalender.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

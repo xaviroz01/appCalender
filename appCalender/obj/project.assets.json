@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nattapa/Desktop/dotnet/appCalender/appCalender.csproj",
+      "projectUniqueName": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/appCalender.csproj",
       "projectName": "appCalender",
-      "projectPath": "/Users/nattapa/Desktop/dotnet/appCalender/appCalender.csproj",
+      "projectPath": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/appCalender.csproj",
       "packagesPath": "/Users/nattapa/.nuget/packages/",
-      "outputPath": "/Users/nattapa/Desktop/dotnet/appCalender/obj/",
+      "outputPath": "/Users/nattapa/Desktop/dotnet/GitHub/appCalender/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nattapa/.nuget/NuGet/NuGet.Config"
