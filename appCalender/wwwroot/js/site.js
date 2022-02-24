@@ -13,8 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
       center: "title",
       right: "dayGridMonth",
     },
-    select: function (info) {
-      alert("วันที่เลือก " + info.startStr + " ถึง " + info.endStr);
+    // select: function (info) {
+    //   alert("วันที่เลือก " + info.startStr + " ถึง " + info.endStr);
+    // },
+    dateClick: function (info) {
+      const modle = document.getElementById("exampleModal");
+      modle.innerHTML;
+      //   alert("Clicked on: " + info.startStr + info.endStr);
+      // change the day's background color just for fun
+      info.dayEl.style.backgroundColor = "red";
     },
   });
 
