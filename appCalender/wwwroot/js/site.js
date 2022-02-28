@@ -9,17 +9,25 @@ document.addEventListener("DOMContentLoaded", function () {
   var calendar = new FullCalendar.Calendar(calendarEl, {
     selectable: true,
     headerToolbar: {
-      left: "prev,next today",
+      left: "prev",
       center: "title",
-      right: "dayGridMonth",
+      right: "today,next",
     },
     // select: function (info) {
     //   alert("วันที่เลือก " + info.startStr + " ถึง " + info.endStr);
     // },
     dateClick: function (info) {
-      const modle = document.getElementById("exampleModal");
-      modle.innerHTML;
-      //   alert("Clicked on: " + info.startStr + info.endStr);
+      //alert("สิ่งที่ต้องทำ" + info.startStr + info.endStr);
+      //   prompt("day end", "ddd");
+      //   prompt("time start", "ddd");
+      //   prompt("time end", "ddd");
+      const modal = document.getElementById("myModal");
+      modal.style.display = "block";
+      const span = document.getElementsByClassName("close")[0];
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
       // change the day's background color just for fun
       info.dayEl.style.backgroundColor = "red";
     },
