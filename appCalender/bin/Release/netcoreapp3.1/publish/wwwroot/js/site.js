@@ -49,3 +49,7 @@ async function getProfileLine() {
   const profile = await liff.getProfile();
   document.getElementById("name").append(profile.displayName);
 }
+const logout = () => {
+  liff.logout();
+  window.location.reload();
+};
