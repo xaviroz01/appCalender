@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/nattapa/.dotnet/store/|arch|/|tfm|",
+      "/Users/nattapa/.nuget/packages"
+    ]
+  }
+}

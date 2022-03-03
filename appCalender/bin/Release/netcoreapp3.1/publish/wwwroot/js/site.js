@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
       //   prompt("time end", "ddd");
       const modal = document.getElementById("myModal");
       modal.style.display = "block";
-      const span = document.getElementsByClassName("close")[0];
-      span.onclick = function () {
+      const close = document.getElementsByClassName("close")[0];
+      close.onclick = function () {
         modal.style.display = "none";
       };
 
       // change the day's background color just for fun
-      info.dayEl.style.backgroundColor = "red";
+      // info.dayEl.style.backgroundColor = "red";
     },
   });
 
