@@ -21,10 +21,22 @@ document.addEventListener("DOMContentLoaded", function () {
       //   prompt("day end", "ddd");
       //   prompt("time start", "ddd");
       //   prompt("time end", "ddd");
+      const date = info.dateStr;
+      document.getElementById("basic-addon3").innerText = date;
       const modal = document.getElementById("myModal");
       modal.style.display = "block";
       const close = document.getElementsByClassName("close")[0];
       close.onclick = function () {
+        document.getElementById("date").value = "";
+        document.getElementById("startTime").value = "";
+        document.getElementById("endTime").value = "";
+        modal.style.display = "none";
+      };
+      const btnClose = document.getElementById("btnClose");
+      btnClose.onclick = function () {
+        document.getElementById("date").value = "";
+        document.getElementById("startTime").value = "";
+        document.getElementById("endTime").value = "";
         modal.style.display = "none";
       };
 
@@ -45,11 +57,11 @@ async function main() {
   }
 }
 main();
-// async function getProfileLine() {
-//   const profile = await liff.getProfile();
-//   document.getElementById("name").append(profile.displayName);
-// }
-// const logout = () => {
-//   liff.logout();
-//   window.location.reload();
-// };
+async function getProfileLine() {
+  const profile = await liff.getProfile();
+  document.getElementById("name").append(profile.displayName);
+}
+const logout = () => {
+  liff.logout();
+  window.location.reload();
+};

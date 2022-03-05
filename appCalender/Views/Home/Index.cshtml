@@ -11,19 +11,39 @@
 
   <!-- Modal content -->
   <div class="modal-content">
+
     <div class="header-modal">
       <div class="text-header d-flex justify-content-between">
         <h2>Events</h3>
         <span class="close">&times;</span>
       </div>
     </div>
+
     <div class="modal-input">
-      <div class="end-date">
-        <input type="date" name="" id="">
+
+      <label for="basic-url" class="form-label">Date Time</label>
+      <div >
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3"></span>
+          <input type="date" class="form-control" id="date" aria-describedby="basic-addon3">
+        </div>
       </div>
+
       <div class="time">
-        <input type="time" name="" id="">
-        <input type="time" name="" id="">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">Start</span>
+          <input type="time" class="form-control" id="startTime" aria-describedby="basic-addon3">
+        </div>
+        <div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">End</span>
+            <input type="time" class="form-control" id="endTime" aria-describedby="basic-addon3">
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Done</button>
+        <button id="btnClose" class="btn btn-secondary" type="button">Cancel</button>
       </div>
     </div>
   </div>
