@@ -91,7 +91,7 @@ body {
   padding-bottom: 10px;
   border: 1px solid #888;
   width: 350px;
-  height: 350px;
+  height: 320px;
 }
 .close {
   color: #aaa;
@@ -111,7 +111,17 @@ body {
 }
 .modal-input {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  padding-top: 20px;
+  margin: 10px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.itme-input {
+  width: 100%;
+  flex-grow: 1;
 }

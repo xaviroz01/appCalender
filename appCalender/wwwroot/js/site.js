@@ -48,20 +48,20 @@ document.addEventListener("DOMContentLoaded", function () {
   calendar.render();
 });
 
-async function main() {
-  await liff.init({ liffId: "1656934937-3eq8pqWw" });
-  if (liff.isLoggedIn()) {
-    getProfileLine();
-  } else {
-    liff.login();
-  }
-}
-main();
-async function getProfileLine() {
-  const profile = await liff.getProfile();
-  document.getElementById("name").append(profile.displayName);
-}
-const logout = () => {
-  liff.logout();
-  window.location.reload();
-};
+// async function main() {
+//   await liff.init({ liffId: "1656934937-3eq8pqWw" });
+//   if (liff.isLoggedIn()) {
+//     getProfileLine();
+//   } else {
+//     liff.login();
+//   }
+// }
+// main();
+// async function getProfileLine() {
+//   const profile = await liff.getProfile();
+//   document.getElementById("name").append(profile.displayName);
+// }
+// const logout = () => {
+//   liff.logout();
+//   window.location.reload();
+// };
